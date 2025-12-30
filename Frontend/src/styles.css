@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flower {
+  width: 80px; height: 80px; border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fef3c7, #f59e0b 60%, #b45309 100%);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.petal {
+  position: absolute; width: 20px; height: 40px; background: #f472b6;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform-origin: bottom center;
+}
